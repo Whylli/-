@@ -1,12 +1,7 @@
 # Finish the function `is_even` to fix the script the
 # way it works without errors
 def is_even(n: int) -> bool:
-    if (n % 2) == 0:
-        i = True
-    else:
-        i = False
-    print(i)
-    return i
+    return (n % 2) == 0
         
         
 
